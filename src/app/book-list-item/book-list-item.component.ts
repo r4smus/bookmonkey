@@ -7,7 +7,5 @@ import { Book } from '../shared/book';
   templateUrl: './book-list-item.component.html'
 })
 export class BookListItemComponent {
-
   @Input() book: Book;
-
 }
